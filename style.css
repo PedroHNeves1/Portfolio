@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif ;
 }
 
+#projetos img {
+    width: 100%;
+}
+
 header a {
     color: white;
     font-size: 35px;
