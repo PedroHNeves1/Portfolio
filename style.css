@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+header a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+header span {
+    color: rgb(237, 19, 73);
+    font-size: 36px;
+}
+
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 24px 80px 24px 80px;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+
+header nav a {
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#home {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 0px 80px;
+    height: 100vh;
+}
+
+#home img {
+    padding: 360px;
+    height: 150vh;
+}
+
+.titulo-inicio {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.titulo-inicio span {
+    color: rgb(237, 19, 60);
+    font-weight: 800;
+}
+
+#home h3 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
