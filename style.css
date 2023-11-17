@@ -26,6 +26,8 @@ header {
     padding: 24px 80px 24px 80px;
     background-color: black;
     justify-content: space-between;
+    position: fixed;
+    width: 100vw;
 }
 
 
@@ -45,11 +47,12 @@ header nav a {
     text-align: center;
     padding: 0px 0px 0px 80px;
     height: 100vh;
+    width: 100vw;
 }
 
 #home img {
-    padding: 360px;
-    height: 50px;
+    padding-left: 290px;
+    height: 740px;
 }
 
 .titulo-inicio {
@@ -77,12 +80,18 @@ header nav a {
     align-items: center;
     height: 100vh;
     text-align: center;
+    gap: 15px;
 }
 
 #sobre div {
     font-size: 35px;
-    padding: 75px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+
+#sobre img {}
 
 .pro {
     background-color: #C4C4C4;
