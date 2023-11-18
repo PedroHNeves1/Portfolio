@@ -9,17 +9,21 @@
 </head>
 
 <body>
-    <header>
-            <a href="#">Port<span>fólio</span></a>
+    <header class="navbar">
+        <a href="#">Port<span>fólio</span></a>
 
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#projetos">Projetos</a>
-            </nav>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+        </nav>
+        <div class="menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
 
     </header>
+    
 
     <main>
 
@@ -37,15 +41,12 @@
             <div>
                 <h1>Sobre mim</h1>
                 <p>
-                    Meu nome é Pedro Neves e sou um apaixonado por tecnologia. Meu primeiro contato com a programação
-                    foi em
-                    2022, quando iniciei a faculdade. Apesar de ter me interessado na área, comecei a dar o devido foco
-                    em
-                    2023, quando decidi trilhar um novo caminho nesta área.
+                    Meu nome é Pedro Neves e sou apaixonado por tecnologia. Tive meu primeiro contato com a programação
+                    em 2022, durante meus estudos na faculdade. Embora tenha me interessado inicialmente, foi somente em
+                    2023 que decidi concentrar meus esforços nessa área.
                 </p>
                 <p>
-                    Hoje entendo um pouco das tecnologias voltadas para o Front-End, mas estou sempre buscando
-                    conhecimento para me tornar um grande profissional.
+                    Atualmente, possuo conhecimentos básicos em tecnologias voltadas para o Front-End, mas estou em constante busca por aprimoramento, visando me tornar um profissional de destaque.
                 </p>
             </div>
             <img src="img/ia-eu.png" alt="IA Pedro" loading="lazy">
@@ -53,20 +54,21 @@
 
         <!-- Habilidades -->
         <section id="habilidades">
-            <h1>Habilidades</h1>
-            <div>
+            <div class="habilidades-js">
+                <h1>Habilidades</h1>
                 <p>
                     Atualmente estou me aprofundando em Javascript, HTML e CSS, mas sigo estudando para também ganhar
                     conhecimento em React, Next, Vue, jQuery, MySql, Angular, Node e Bootstrap.
                 </p>
-                <img src="img/html-css-javascript.png" alt="habilidades js-html-css" loading="lazy">
+                <img class="img" src="img/html-css-javascript.png" alt="habilidades js-html-css" loading="lazy">
             </div>
 
-            <div>
+            <div class="habilidades-react">
                 <p>
-                    Estou estudando para ganhar conhecimento em React, Next, Vue, jQuery, MySql, Angular, Node e Bootstrap. E mais importante, melhorar o desenvolvimento dos meus códigos.
+                    Estou estudando para ganhar conhecimento em React, Next, Vue, jQuery, MySql, Angular, Node e
+                    Bootstrap. E mais importante, melhorar o desenvolvimento dos meus códigos.
                 </p>
-                <img src="img/vue-react-angular.png" alt="habilidades vue-react-angular">
+                <img class="img" src="img/vue-react-angular.png" alt="habilidades vue-react-angular">
             </div>
 
         </section>
@@ -81,20 +83,28 @@
             <div>
                 <button>Ver mais</button>
                 <a href="https://github.com/PedroHNeves1?tab=repositories" target="_blank">Repositórios no
-                        github</a>
+                    github</a>
             </div>
             </a>
             <div class="pro">
-            <div class="breve"><p>EM BREVE</p></div>
+                <div class="breve">
+                    <p>EM BREVE</p>
+                </div>
             </div>
             <div class="pro">
-            <div class="breve"><p>EM BREVE</p></div>
+                <div class="breve">
+                    <p>EM BREVE</p>
+                </div>
             </div>
             <div class="pro escondido">
-            <div class="breve"><p>EM BREVE</p></div>
+                <div class="breve">
+                    <p>EM BREVE</p>
+                </div>
             </div>
             <div class="pro escondido">
-            <div class="breve"><p>EM BREVE</p></div>
+                <div class="breve">
+                    <p>EM BREVE</p>
+                </div>
             </div>
 
         </section>
@@ -104,14 +114,14 @@
     <footer>
         <div>
             <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/">
-            <img src="img/logo-linkedin.png" alt="logo-linkedin">
+                <img src="img/logo-linkedin.png" alt="logo-linkedin">
             </a>
             <a href="https://github.com/PedroHNeves1?tab=repositories">
-            <img src="img/logo-git-hub.png" alt="logo-git-hub">
+                <img src="img/logo-git-hub.png" alt="logo-git-hub">
             </a>
         </div>
-       <strong>Developed by <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/">Pedro Neves</a> </strong>
-       <div>
+        <strong>Developed by <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/">Pedro Neves</a> </strong>
+        <div>
             <strong>
                 <nav>
                     <a href="#home">Home</a>
@@ -120,19 +130,21 @@
                     <a href="#projetos">Projetos</a>
                 </nav>
             </strong>
-       </div>
-       <div>
+        </div>
+        <div>
             <strong>Contatos</strong>
-                <p>WhatsApp: <a href="https://wa.me/5519971304985" target="_blank">(19) 97130-4985</a></p>
-                <p>Email: <a href="mailto:pedrohneves2004@gmail.com" target="_blank">pedrohneves2004@gmail.com</a></p>
-            
-       </div>
+            <p>WhatsApp: <a href="https://wa.me/5519971304985" target="_blank">(19) 97130-4985</a></p>
+            <p>Email: <a href="mailto:pedrohneves2004@gmail.com" target="_blank">pedrohneves2004@gmail.com</a></p>
 
-       <a href="#">Port<span>fólio</span></a>
+        </div>
+
+        <a href="#">Port<span>fólio</span></a>
 
 
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="index.js"></script>
 
 </body>

@@ -1,122 +1,168 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif ;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
 }
 
 #projetos img {
-    width: 100%;
+  width: 100%;
 }
 
 header a {
-    color: white;
-    font-size: 35px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
 }
 
 header span {
-    color: rgb(237, 19, 73);
-    font-size: 36px;
+  color: rgb(237, 19, 73);
+  font-size: 36px;
 }
-
 
 header {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding: 24px 80px 24px 80px;
-    background-color: black;
-    justify-content: space-between;
-    position: fixed;
-    width: 100vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 24px 80px 24px 80px;
+  /*background-color: rgb(237, 19, 73);*/
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+}
+header .sticky {
+  background-color: rgb(237, 19, 73);
+  padding: 30px 0;
 }
 
-
 header nav a {
-    font-weight: 600;
-    padding: 32px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+  font-weight: 600;
+  padding: 32px;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+header nav a:hover {
+  color: rgb(237, 19, 73);
 }
 
 #home {
-    display: flex;
-    background-color: black;
-    color: white;
-    align-items: center;
-    text-align: center;
-    padding: 0px 0px 0px 80px;
-    height: 100vh;
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px 0px 80px;
+  height: 100vh;
 }
 
 #home img {
-    padding-left: 290px;
-    height: 740px;
+  padding-left: 290px;
+  height: 740px;
 }
 
 .titulo-inicio {
-    color: white;
-    font-weight: 900;
-    font-size: 50px;
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
 }
 
 .titulo-inicio span {
-    color: rgb(237, 19, 60);
-    font-weight: 800;
+  color: rgb(237, 19, 60);
+  font-weight: 800;
 }
 
 #home h3 {
-    margin-top: 15px;
-    font-weight: 700;
-    font-size: 30px;
-    padding-right: 15px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 30px;
+  padding-right: 15px;
+}
+/* Menu-mobile */
+.menu-btn {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 947px) {
+  header {
+    padding: 0 50px;
+  }
+  .navbar nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: black;
+  }
+  .navbar nav a {
+    display: block;
+  }
 }
 
 #sobre {
-    display: flex;
-    background-color: rgb(19, 18, 18);
-    color: white;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    gap: 15px;
+  display: flex;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 15px;
 }
 
 #sobre div {
-    font-size: 35px;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  font-size: 35px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#habilidades {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.habilidades-js {
+  display: flex;
+  align-items: baseline;
+}
+
+.habilidades-react {
+  display: flex;
 }
 
 .pro {
-    background-color: #C4C4C4;
-    height: 195px;
-    width: 310px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    transition: ease-in-out 0.3s;
+  background-color: #c4c4c4;
+  height: 195px;
+  width: 310px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
 }
 
 .pro div {
-    background-color: #705656;
-    width: 1000px;
-    text-align: center;
-    padding: 5% 0;
-    transform: rotate(-50deg);
-}
-.escondido {
-    opacity: 0;
-    display: none;
-    transition: 1000ms;
+  background-color: #705656;
+  width: 1000px;
+  text-align: center;
+  padding: 5% 0;
+  transform: rotate(-50deg);
 }
 
+.escondido {
+  opacity: 0;
+  display: none;
+  transition: 1000ms;
+}
