@@ -20,21 +20,27 @@ header a {
 header span {
   color: rgb(237, 19, 73);
   font-size: 36px;
+  transition: all 0.3s ease;
 }
 
 header {
   display: flex;
   text-align: center;
   align-items: center;
-  padding: 24px 80px 24px 80px;
+  padding: 18px 80px 18px 80px;
   /*background-color: rgb(237, 19, 73);*/
   justify-content: space-between;
   position: fixed;
   width: 100vw;
+  transition: all 0.3s ease;
 }
 header.sticky {
   background-color: rgb(237, 19, 73);
-  padding: 30px 0;
+  transition: all 0.3s ease;
+  padding: 5px;
+}
+header.sticky span {
+  color: white;
 }
 
 header nav a {
@@ -88,6 +94,9 @@ header nav a:hover {
   cursor: pointer;
   display: none;
 }
+header.sticky nav a {
+  color: white;
+}
 
 /* Responsivo */
 @media (max-width: 947px) {
@@ -96,12 +105,12 @@ header nav a:hover {
   }
   .menu-btn {
     display: block;
-    z-index: 1;
+    z-index: 999;
   }
   header nav {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     left: 0;
     top: 0;
     background: black;
@@ -109,7 +118,6 @@ header nav a:hover {
     text-align: center;
     transition: all 0.3s ease;
     display: inline-block;
-    margin: 20px 0;
     font-size: 25px;
   }
   header nav.active {
