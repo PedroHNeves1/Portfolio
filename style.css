@@ -64,9 +64,20 @@ header nav a:hover {
   padding: 0px 0px 0px 80px;
   height: 100vh;
 }
+#home a {
+  background: rgb(237, 19, 73);
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 280px;
+  margin-left: -390px;
+  border-radius: 5px;
+  padding: 15px;
+}
 
 #home img {
-  padding-left: 290px;
+  padding-left: 530px;
   height: 740px;
 }
 
@@ -99,6 +110,16 @@ header.sticky nav a {
 }
 
 /* Responsivo */
+@media (max-width: 1104px) {
+  header {
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 947px) {
   header {
     padding: 0 50px;
@@ -110,8 +131,8 @@ header.sticky nav a {
   header nav {
     position: fixed;
     width: 100%;
-    height: 100%;
-    left: 0;
+    height: 100vh;
+    left: -100%;
     top: 0;
     background: black;
     padding-top: 80px;
@@ -125,6 +146,44 @@ header.sticky nav a {
   }
   header nav a {
     display: block;
+  }
+  header.sticky {
+    padding-right: 15px;
+  }
+  .titulo-inicio {
+    font-size: 35px;
+  }
+
+  .titulo-inicio span {
+    font-size: 35px;
+  }
+  #home h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 690px) {
+  .titulo-inicio {
+    font-size: 25px;
+  }
+
+  .titulo-inicio span {
+    font-size: 25px;
+  }
+  #home h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .titulo-inicio {
+    font-size: 20px;
+  }
+
+  .titulo-inicio span {
+    font-size: 20px;
+  }
+  #home h3 {
+    font-size: 10px;
   }
 }
 
