@@ -68,12 +68,17 @@ header nav a:hover {
   background: rgb(237, 19, 73);
   color: white;
   font-size: 25px;
-  display: inline-block;
+  display: inline-flex;
   flex-direction: column;
   margin-top: 280px;
   margin-left: -390px;
   border-radius: 5px;
   padding: 15px;
+}
+#home a:hover {
+  color: rgb(237, 19, 73);
+  background: none;
+  border: 2px solid;
 }
 
 #home img {
@@ -110,9 +115,19 @@ header.sticky nav a {
 }
 
 /* Responsivo */
+@media (min-width: 1105px) and (max-width: 1596px) {
+  #home a {
+    margin-right: -147px;
+    font-size: 19px;
+  }
+}
 @media (max-width: 1104px) {
   header {
     margin-left: 0;
+  }
+  #home a {
+    margin-right: -140px;
+    font-size: 17px;
   }
 }
 @media (max-width: 991px) {
@@ -160,6 +175,11 @@ header.sticky nav a {
   #home h3 {
     font-size: 20px;
   }
+  #home a {
+    margin-right: -220px;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -173,6 +193,11 @@ header.sticky nav a {
   #home h3 {
     font-size: 15px;
   }
+  #home a {
+    margin-right: -220px;
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 500px) {
   .titulo-inicio {
@@ -184,6 +209,7 @@ header.sticky nav a {
   }
   #home h3 {
     font-size: 10px;
+  }
   }
 }
 
