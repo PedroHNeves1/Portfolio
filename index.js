@@ -7,3 +7,8 @@ $(document).ready(function () {
     }
   });
 });
+
+$(".menu-btn").click(function () {
+  $("header nav").toggleClass("active");
+  $(".menu-btn").toggleClass("active");
+});

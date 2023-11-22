@@ -172,6 +172,7 @@ header.sticky nav a {
   .titulo-inicio span {
     font-size: 35px;
   }
+
   #home h3 {
     font-size: 20px;
   }
@@ -179,6 +180,15 @@ header.sticky nav a {
     margin-right: -220px;
     font-size: 15px;
     margin-bottom: 40px;
+  }
+  #home img {
+    height: 50%;
+  }
+  #sobre div {
+    font-size: 20px;
+  }
+  #sobre img {
+    width: 250px;
   }
 }
 
@@ -197,6 +207,11 @@ header.sticky nav a {
     margin-right: -220px;
     font-size: 12px;
     margin-bottom: 40px;
+  }
+}
+@media (min-width: 501px) and (max-width: 689px) {
+  #home a {
+    margin-right: -255px;
   }
 }
 @media (max-width: 500px) {
