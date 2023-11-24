@@ -307,7 +307,7 @@ header.sticky nav a {
     width: 25%;
   }
 }
-@media (max-width: 500px) {
+@media (min-width: 414px) and (max-width: 450px) {
   .titulo-inicio {
     font-size: 13px;
   }
@@ -325,13 +325,13 @@ header.sticky nav a {
   }
   #home img {
     height: 20%;
-    padding-left: 140px;
+    padding-left: 83px;
   }
   #sobre h1 {
-    font-size: 25px;
+    font-size: 15px;
   }
   #sobre p {
-    font-size: 10px;
+    font-size: 8px;
     align-items: center;
     text-align: center;
     display: inline-block;
