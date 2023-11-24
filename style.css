@@ -114,6 +114,133 @@ header.sticky nav a {
   color: white;
 }
 
+#sobre {
+  display: flex;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 15px;
+}
+
+#sobre div {
+  font-size: 35px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+#habilidades {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  align-items: center;
+  text-align: center;
+  background: black;
+  color: white;
+}
+#habilidades h1 {
+  font-size: 45px;
+}
+
+.habilidades-js {
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 55px;
+}
+.habilidades-js .img-js {
+  width: 25%;
+  display: inline-flex;
+}
+
+.habilidades-react p {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 25px;
+  align-items: center;
+}
+.habilidades-react2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#habilidades .column {
+  width: calc(50% - 30%);
+  padding-top: 85px;
+}
+#habilidades .bars {
+  width: 150%;
+  margin-left: -100px;
+}
+
+#habilidades .right .bars {
+  margin-bottom: 15px;
+}
+#habilidades .right .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#habilidades .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#habilidades .right .line {
+  width: 100%;
+  height: 5px;
+  background: white;
+  position: relative;
+}
+#habilidades .right .line::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(237, 19, 73);
+}
+#habilidades .right .html::before {
+  width: 35%;
+}
+#habilidades .right .css::before {
+  width: 25%;
+}
+#habilidades .right .js::before {
+  width: 45%;
+}
+
+.pro {
+  background-color: #c4c4c4;
+  height: 195px;
+  width: 310px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
+}
+
+.pro div {
+  background-color: #705656;
+  width: 1000px;
+  text-align: center;
+  padding: 5% 0;
+  transform: rotate(-50deg);
+}
+
+.escondido {
+  opacity: 0;
+  display: none;
+  transition: 1000ms;
+}
+
 /* Responsivo */
 @media (min-width: 1105px) and (max-width: 1596px) {
   #home a {
@@ -339,73 +466,4 @@ header.sticky nav a {
   #sobre img {
     width: 25%;
   }
-}
-
-#sobre {
-  display: flex;
-  background-color: rgb(19, 18, 18);
-  color: white;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-  gap: 15px;
-}
-
-#sobre div {
-  font-size: 35px;
-  padding: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  justify-content: space-between;
-}
-
-#habilidades {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding: 45px;
-  align-items: center;
-  text-align: center;
-  background: black;
-  color: white;
-}
-
-.habilidades-js {
-  font-weight: 600;
-}
-.habilidades-js .img-js {
-  width: 25%;
-  display: inline-flex;
-}
-
-.habilidades-react {
-  font-weight: 600;
-}
-
-.pro {
-  background-color: #c4c4c4;
-  height: 195px;
-  width: 310px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  overflow: hidden;
-  transition: ease-in-out 0.3s;
-}
-
-.pro div {
-  background-color: #705656;
-  width: 1000px;
-  text-align: center;
-  padding: 5% 0;
-  transform: rotate(-50deg);
-}
-
-.escondido {
-  opacity: 0;
-  display: none;
-  transition: 1000ms;
 }
