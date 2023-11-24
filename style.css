@@ -365,15 +365,22 @@ header.sticky nav a {
   display: flex;
   flex-direction: column;
   padding: 45px;
+  align-items: center;
+  text-align: center;
+  background: black;
+  color: white;
 }
 
 .habilidades-js {
-  display: flex;
-  align-items: baseline;
+  font-weight: 600;
+}
+.habilidades-js .img-js {
+  width: 25%;
+  display: inline-flex;
 }
 
 .habilidades-react {
-  display: flex;
+  font-weight: 600;
 }
 
 .pro {
