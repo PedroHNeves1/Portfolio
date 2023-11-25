@@ -11,6 +11,8 @@
   width: 100%;
 }
 
+/* Header */
+
 header a {
   color: white;
   font-size: 35px;
@@ -54,6 +56,8 @@ header nav a {
 header nav a:hover {
   color: rgb(237, 19, 73);
 }
+
+/* Home */
 
 #home {
   display: flex;
@@ -114,6 +118,8 @@ header.sticky nav a {
   color: white;
 }
 
+/* Sobre */
+
 #sobre {
   display: flex;
   background-color: rgb(19, 18, 18);
@@ -133,6 +139,8 @@ header.sticky nav a {
   justify-content: space-between;
 }
 
+/* Habilidades */
+
 #habilidades {
   height: 100vh;
   display: flex;
@@ -142,6 +150,7 @@ header.sticky nav a {
   text-align: center;
   background: black;
   color: white;
+  gap: 40px;
 }
 #habilidades h1 {
   font-size: 45px;
@@ -152,20 +161,25 @@ header.sticky nav a {
   font-size: 25px;
   padding-top: 55px;
 }
-.habilidades-js .img-js {
-  width: 25%;
-  display: inline-flex;
-}
-
-.habilidades-react p {
-  margin-top: 100px;
-  font-weight: 400;
-  font-size: 25px;
-  align-items: center;
-}
 .habilidades-react2 {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
+}
+.habilidades-react p {
+  margin-top: 150px;
+  font-weight: 400;
+  font-size: 19px;
+  align-items: center;
+  margin-left: -270px;
+  display: inline-flex;
+  text-align: start;
+}
+
+#habilidades .img {
+  width: 55%;
+  margin-left: 390px;
+  margin-top: 115px;
 }
 
 #habilidades .column {
@@ -214,11 +228,53 @@ header.sticky nav a {
   width: 45%;
 }
 
+/* Projetos */
+#projetos {
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  height: 100vh;
+  gap: 340px;
+}
+#projetos h1 {
+  margin: 25px;
+  text-align: center;
+  color: white;
+}
+#projetos .projetos.card {
+  display: flex;
+  gap: 125px;
+  margin-top: 300px;
+}
+#projetos .box img {
+  width: 112%;
+  margin-left: -12px;
+}
+#projetos .card.mario .card .box {
+  width: 255px;
+}
+
+#projetos .mario .card .box {
+  background-color: rgb(95, 92, 92);
+  width: 175px;
+  height: 250px;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+#projetos .card.pet .card .box {
+  width: 255px;
+}
+#projetos .pet .card .box {
+  background-color: rgb(95, 92, 92);
+  width: 175px;
+  height: 250px;
+  padding: 25px;
+}
+
 .pro {
   background-color: #c4c4c4;
-  height: 195px;
-  width: 310px;
-  border-radius: 20px;
+  position: relative;
+  height: 250px;
+  width: 255px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,9 +285,10 @@ header.sticky nav a {
 
 .pro div {
   background-color: #705656;
+  position: absolute;
   width: 1000px;
   text-align: center;
-  padding: 5% 0;
+  padding: 10% 0;
   transform: rotate(-50deg);
 }
 
