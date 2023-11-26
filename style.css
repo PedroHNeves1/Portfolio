@@ -233,70 +233,81 @@ header.sticky nav a {
   background-color: rgb(19, 18, 18);
   display: flex;
   height: 100vh;
-  gap: 340px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 #projetos h1 {
-  margin: 25px;
+  margin: 45px;
   text-align: center;
   color: white;
 }
-#projetos .projetos.card {
-  display: flex;
-  gap: 125px;
-  margin-top: 300px;
+#projetos img {
+  width: 75%;
+  padding: 25px 10px 20px 10px;
 }
-#projetos .box img {
-  width: 112%;
-  margin-left: -12px;
-}
-#projetos .card.mario .card .box {
-  width: 255px;
-}
-
-#projetos .mario .card .box {
-  background-color: rgb(95, 92, 92);
-  width: 175px;
-  height: 250px;
-  padding: 25px;
-  margin-bottom: 15px;
-}
-#projetos .card.pet .card .box {
-  width: 255px;
-}
-#projetos .pet .card .box {
-  background-color: rgb(95, 92, 92);
-  width: 175px;
-  height: 250px;
-  padding: 25px;
-}
-
-.pro {
-  background-color: #c4c4c4;
-  position: relative;
-  height: 250px;
-  width: 255px;
+#projetos .projetos-card {
   display: flex;
   align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  overflow: hidden;
-  transition: ease-in-out 0.3s;
-}
-
-.pro div {
-  background-color: #705656;
-  position: absolute;
-  width: 1000px;
   text-align: center;
-  padding: 10% 0;
-  transform: rotate(-50deg);
+  justify-content: center;
+  color: white;
+  margin-top: 35px;
+  font-size: 14px;
+}
+#projetos .projetos-card .card {
+  background: rgb(57, 52, 52);
+  width: 400px;
+  height: 370px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid rgba(237, 19, 73, 0.82);
+  transition: transform 0.3s ease-in-out;
+}
+#projetos .projetos-card .card:hover {
+  transform: scale(1.07);
+}
+#projetos .card-pet,
+.card-mario {
+  color: white;
 }
 
-.escondido {
-  opacity: 0;
-  display: none;
-  transition: 1000ms;
+#projetos p,
+h1 .caixas {
+  font-size: 25px;
+  margin-top: -25px;
+  display: flex;
+  text-align: start;
+  align-items: start;
 }
+#projetos p {
+  font-size: 16px;
+  margin-left: 45px;
+}
+#projetos .projetos-card .card-mario {
+  padding: 100px;
+}
+footer {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  padding-top: 15px;
+  height: 80px;
+}
+.logo-linkedin ion-icon {
+  color: rgb(237, 19, 73);
+  font-size: 25px;
+}
+.logo-github ion-icon {
+  color: rgb(237, 19, 73);
+  font-size: 25px;
+}
+footer .contatos {
+  color: black;
+}
+footer .contatos a {
+  color: rgb(237, 19, 73);
+}
+footer 
 
 /* Responsivo */
 @media (min-width: 1105px) and (max-width: 1596px) {

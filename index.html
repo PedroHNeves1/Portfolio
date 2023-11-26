@@ -107,81 +107,49 @@
       <!-- Projetos -->
       <section id="projetos">
         <h1>Projetos</h1>
-        <div class="projetos card">
-          <div class="card mario">
-            <div class="card"> 
-              <div class="box">
-                <img class="img" src="img/projeto-mario.png" alt="projeto-mario" loading="lazy" />
-                <p>Projeto criado para colocar em prática meus conhecimentos, utilizando HTML, CSS e JavaScript.</p> 
+          <div class="projetos-card">
+            <a href="https://github.com/PedroHNeves1/site-do-mario" target="_blank"><div class="card-mario">
+              <div class="card"> 
+                <div class="box">
+                  <img class="img" src="img/projeto-mario.png" alt="projeto-mario" loading="lazy" />
+                  <h1 class="caixas">Super Mario</h1>
+                  <p>Projeto criado para colocar em prática meus conhecimentos, utilizando HTML, CSS e JavaScript.</p> 
+                </div>
+              </div> 
+            </div></a>
+            <a href="https://github.com/PedroHNeves1/PetLife" target="_blank"><div class="card-pet">
+              <div class="card">
+                <div class="box">
+                  <img class="img"
+                    src="img/projeto-petlife.png"
+                    alt="projeto-petlife"
+                    loading="lazy"
+                  />
+                  <h1 class="caixas">PetLife</h1>
+                  <p>Este projeto foi desenvolvido para aprofundar alguns dos meus conhecimentos, utilizando apenas HTML, CSS e JavaScript</p>
+                </div>
               </div>
-            </div> 
-          </div>
-          <div class="card pet">
-            <div class="card">
-              <div class="box">
-                <img class="img"
-                  src="img/projeto-petlife.png"
-                  alt="projeto-petlife"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="pro">
-              <div class="breve">
-                <p>EM BREVE</p>
-              </div>
-            </div>
-          </div>  
-        </div>
-        
-        <div class="escondido">
-          <div class="pro">
-            <div class="breve">
-              <p>EM BREVE</p>
-            </div>
-          </div>
-          <div class="pro escondido">
-            <div class="breve">
-              <p>EM BREVE</p>
-            </div>
-          </div>
-          <div class="pro escondido">
-            <div class="breve">
-              <p>EM BREVE</p>
-            </div>
-          </div>
-        </div>
+            </div></a>
+          </div>    
       </section>
     </main>
 
     <footer>
       <div>
-        <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/">
-          <img src="img/logo-linkedin.png" alt="logo-linkedin" />
-        </a>
-        <a href="https://github.com/PedroHNeves1?tab=repositories">
-          <img src="img/logo-git-hub.png" alt="logo-git-hub" />
-        </a>
+        <div class="logo-linkedin">
+          <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <div class="logo-github">
+          <a href="https://github.com/PedroHNeves1?tab=repositories">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </div>
       </div>
-      <strong
-        >Developed by
-        <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/"
-          >Pedro Neves</a
-        >
-      </strong>
-      <div>
-        <strong>
-          <nav>
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-          </nav>
-        </strong>
-      </div>
-      <div>
+
+     
+      <div class="contatos">
         <strong>Contatos</strong>
         <p>
           WhatsApp:
@@ -199,6 +167,9 @@
 
       <a href="#">Port<span>fólio</span></a>
     </footer>
+    <div id="copyright">
+      Developed by <a href="https://www.linkedin.com/in/pedro-neves-59ba03262/" target="_blank">Pedro Neves</a>
+  </div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
