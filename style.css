@@ -288,26 +288,26 @@ h1 .caixas {
 }
 footer {
   display: flex;
-  background: white;
+  background: rgb(237, 19, 73);
   justify-content: space-between;
   padding-top: 15px;
   height: 80px;
 }
 .logo-linkedin ion-icon {
-  color: rgb(237, 19, 73);
+  color: black;
   font-size: 25px;
 }
 .logo-github ion-icon {
-  color: rgb(237, 19, 73);
+  color: black;
   font-size: 25px;
 }
 footer .contatos {
   color: black;
 }
 footer .contatos a {
-  color: rgb(237, 19, 73);
+  color: white;
 }
-footer 
+footer
 
 /* Responsivo */
 @media (min-width: 1105px) and (max-width: 1596px) {
