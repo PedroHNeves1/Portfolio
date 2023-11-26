@@ -30,7 +30,6 @@ header {
   text-align: center;
   align-items: center;
   padding: 18px 80px 18px 80px;
-  /*background-color: rgb(237, 19, 73);*/
   justify-content: space-between;
   position: fixed;
   width: 100vw;
@@ -68,6 +67,7 @@ header nav a:hover {
   padding: 0px 0px 0px 80px;
   height: 100vh;
 }
+
 #home a {
   background: rgb(237, 19, 73);
   color: white;
@@ -106,6 +106,17 @@ header nav a:hover {
   font-weight: 700;
   font-size: 30px;
   padding-right: 15px;
+}
+.seta {
+  display: flex;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+.seta ion-icon {
+  color: rgb(237, 19, 73);
+  font-size: 60px;
 }
 /* Menu-mobile */
 .menu-btn {
@@ -307,7 +318,6 @@ footer .contatos {
 footer .contatos a {
   color: white;
 }
-footer
 
 /* Responsivo */
 @media (min-width: 1105px) and (max-width: 1596px) {
