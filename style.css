@@ -33,6 +33,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100vw;
+  z-index: 1;
   transition: all 0.3s ease;
 }
 header.sticky {
@@ -681,9 +682,7 @@ footer .contatos a {
   .titulo-inicio span {
     font-size: 13px;
   }
-  .menu-btn {
-    z-index: 1;
-  }
+
   #home h3 {
     font-size: 9px;
   }
