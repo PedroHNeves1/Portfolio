@@ -681,6 +681,9 @@ footer .contatos a {
   .titulo-inicio span {
     font-size: 13px;
   }
+  .menu-btn {
+    z-index: 1;
+  }
   #home h3 {
     font-size: 9px;
   }
