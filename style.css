@@ -412,8 +412,8 @@ footer .contatos a {
   }
 
   #home img {
-    padding-left: 300px;
     height: 50%;
+    padding-left: 0;
   }
   #sobre .caixa-sobre {
     font-size: 20px;
