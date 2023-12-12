@@ -789,3 +789,137 @@ footer .contatos a {
     font-size: 14px;
   }
 }
+
+@media (max-width: 320px) {
+  header a {
+    font-size: 25px;
+  }
+
+  header span {
+    font-size: 25px;
+  }
+  .titulo-inicio {
+    font-size: 10px;
+  }
+
+  .titulo-inicio span {
+    font-size: 10px;
+  }
+
+  #home h3 {
+    font-size: 7px;
+  }
+  #home a {
+    margin-right: -262px;
+    font-size: 8px;
+    margin-bottom: 85px;
+    padding: 11px;
+  }
+  .titulos-h {
+    margin-left: -23px;
+  }
+
+  #home img {
+    height: 18%;
+    padding-left: 27px;
+  }
+  #sobre .titulo-sobre {
+    font-size: 10px;
+  }
+  #sobre .caixa-sobre {
+    font-size: 8px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    height: 95px;
+    width: 100px;
+  }
+  #sobre .textos-sobre {
+    width: 100%;
+    margin-right: -100px;
+  }
+  #sobre img {
+    width: 25%;
+  }
+  .seta ion-icon {
+    font-size: 45px;
+    display: none;
+  }
+  #habilidades .habilidades-js {
+    font-size: 9px;
+  }
+  #habilidades .h1-habilidades {
+    font-size: 10px;
+  }
+  #habilidades .bars {
+    margin-left: -40px;
+    width: 150px;
+  }
+  #habilidades .right span {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  #habilidades .habilidades-react2 img {
+    width: 110%;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 125px;
+  }
+  #habilidades .habilidades-react p {
+    font-size: 9px;
+    padding-left: 165px;
+  }
+  #projetos .titulo-projetos {
+    font-size: 10px;
+  }
+  #projetos .projetos-card {
+    padding-left: 130px;
+    width: 50%;
+    padding-top: 18px;
+  }
+  #projetos .projetos-card .card {
+    width: 100%;
+    height: 30%;
+    padding-right: 0px;
+  }
+  #projetos .projetos-card .card .box {
+    width: 100%;
+    height: 26vh;
+  }
+  #projetos .projetos-card .card-mario {
+    padding: 50px;
+  }
+  #projetos .projetos-card .card-mario .box {
+    padding: 4px;
+  }
+  #projetos p,
+  h1.caixas {
+    font-size: 10px;
+    margin-top: -25px;
+    display: flex;
+    text-align: start;
+    align-items: start;
+  }
+  #projetos .caixas {
+    margin-left: 26px;
+    margin-top: 14px;
+  }
+  #projetos .box p {
+    font-size: 8px;
+    margin-left: 26px;
+  }
+  .logo-linkedin ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+  .logo-github ion-icon {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+  footer .contatos {
+    font-size: 15px;
+  }
+  footer .contatos a {
+    font-size: 14px;
+  }
+}
