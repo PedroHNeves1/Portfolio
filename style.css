@@ -88,7 +88,7 @@ header nav a:hover {
 
 #home img {
   padding-left: 420px;
-  height: 740px;
+  height: 60%;
 }
 
 .titulo-inicio {
@@ -338,7 +338,7 @@ footer .contatos a {
 }
 
 /* Responsivo */
-@media (min-width: 1105px) and (max-width: 1596px) {
+@media (max-width: 1105px) {
   #home a {
     margin-right: -70px;
     font-size: 15px;
@@ -413,7 +413,7 @@ footer .contatos a {
 
   #home img {
     height: 50%;
-    padding-left: 250px;
+    padding-left: 180px;
   }
   #sobre .caixa-sobre {
     font-size: 20px;
@@ -448,7 +448,7 @@ footer .contatos a {
     width: 335px;
   }
 }
-@media (min-width: 991px) and (max-width: 1103px) {
+@media (max-width: 991px) {
   header {
     padding: 0 50px;
   }
@@ -506,7 +506,7 @@ footer .contatos a {
     width: 315px;
   }
 }
-@media (min-width: 947px) and (max-width: 990px) {
+@media (max-width: 947px) {
   header {
     padding: 0 50px;
   }
